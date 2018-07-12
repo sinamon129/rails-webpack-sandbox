@@ -1,0 +1,60 @@
+//全てに適用
+
+*,
+*:before,
+*:after
+  +box-sizing
+
+html,
+body
+  margin: 0
+  padding: 0
+  word-wrap: break-word
+  -webkit-font-smoothing: antialiased
+
+html
+  overflow-y: scroll
+  -webkit-overflow-scrolling: touch
+
+body
+  overflow: hidden
+  line-height: 1.5
+  font-size: 16px
+  +font-regular
+  color: $text-bk
+  -webkit-overflow-scrolling: touch
+  width: 100%
+  height: auto
+  +sp-view
+    font-size: 14px
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+p,
+pre
+  margin: 0
+
+img
+  display: block
+  width: 100%
+
+a
+  text-decoration: none
+  color: $black
+  img
+    border: none
+
+hr
+  margin: 0
+  border: none
+
+main
+  display: block
